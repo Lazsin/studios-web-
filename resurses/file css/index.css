@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li, a, button{
+	font-family:"Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+header{
+	border-radius: 50px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	height: 50px;
+	background-color: gray
+}
+.logo{
+	cursor: pointer;
+	width: 150px;
+}
+
+.nav_links{
+	list-style-position: left;
+}
+.nav_links li {
+	display: inline-block;
+	padding: 20px 40px;
+	position: relative;
+}
+.nav_links li a{
+	transition: all .3s ease 0s;
+}
+.nav_links li a:hover{
+	color: black;
+}
+.nav_links li a:hover ul.s_links{
+	top: 63px;
+	
+	
+
+}
+
+button{
+	padding: 9px 25px
+	background-color:gray;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all .3s ease 0s;
+}
+
+button:hover{
+	background-color: lightgray; 
+}
+.s_links {
+	position: absolute;
+	background-color: gray;
+	left: 0;
+	top: -390px;
+	transition: all .3s ease 0s;
+	z-index: -1;
+}
+.s_links li{
+	display: block;
+	padding: 20px 40px
+	border-top:1px solid #333;
+}
+.s_links li a {
+	transition: all .3s ease 0s;
+}
+.s_links li a:hover{
+	color:#23252a; 
+
+}
