@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
-{
+*{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -49,7 +49,7 @@ header{
 }
 
 button{
-	padding: 9px 25px
+	padding: 9px 25px;
 	background-color:gray;
 	border: none;
 	border-radius: 50px;
@@ -70,7 +70,7 @@ button:hover{
 }
 .s_links li{
 	display: block;
-	padding: 20px 40px
+	padding: 20px 40px;
 	border-top:1px solid #333;
 }
 .s_links li a {
